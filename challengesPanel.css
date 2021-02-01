@@ -1,0 +1,87 @@
+* {
+    font-family: "Quicksand", sans-serif;
+ }
+
+html, body { margin: 0; padding: 0; }
+
+
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    }
+
+    h2 {
+        color: white;
+    font-size: 20px;
+    font-weight: 100px;
+    margin-bottom: 100px;
+    text-align:center;
+    margin-top: 1rem;
+       }
+
+        .flashcard {
+            box-shadow: 0 0 5px #bfbfbf;
+            width: 20rem;
+            height: 10rem;
+            max-width: 600px;
+            background: #8d8d8d;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 3em;
+            display: inline-block;
+            margin-left: 30px;
+            margin-bottom: 50px;
+            border-radius: 23px;
+            background-color: #1E8188;
+        
+        }
+
+        .flashButton {
+                background-color: #16A2B8;
+                border: none; 
+                border-radius: 50%;
+                color: white; 
+                padding: 6px 10px; 
+                font-size: 25px; 
+                cursor: pointer; 
+              }
+              
+              .flashButton:hover {
+                background-color: RoyalBlue;
+        }
+
+       .flashcardBody {
+           font-size: large;
+       }
+
+       #headline {
+           color:white;
+           margin-bottom: 100px;
+       }
+    
+       .flashcardHead {
+           cursor: pointer;
+       }
+
+
+
+       .btn {
+           width: 15rem;
+           border: solid 1px #1E8188;
+           color: #1E8188;
+           height: 2rem;
+           padding-bottom: 0.5rem;
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 5rem;
+           
+       }
+
+       .btn:hover {
+        background-color:#1e818841;
+        border-color:#1E8188;
+       }

@@ -1,0 +1,85 @@
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+#logo {
+    border-radius: 10%;
+    width: 12rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+h1 {
+    color: white;
+        font-size: 20px;
+        font-weight: 100px;
+        margin-bottom: 50px;
+       
+     }
+      
+
+ img #logo {
+     height: 300px;
+     width: 300px;
+     margin-bottom: 30px;
+     margin-top: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     }
+ 
+ .profileWrapper {
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 100%;
+    border: solid rgb(194, 194, 194) 1px;
+ }
+ 
+ #profilePic {
+    height: 150px;
+    width: 150px;
+
+ }
+
+ .addButton {
+    background-color: #16A2B8;
+    border: rgb(255, 255, 255); 
+    border-radius: 50%;
+    color: white; 
+    padding: 4px 12px; 
+    font-size: 25px; 
+    cursor: pointer;
+    position: relative;
+    top: 1%;
+    left: 40%; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+ }
+
+ .addButton:hover {
+    background-color: RoyalBlue;
+ }
+
+ 
+     .btn-outline-secondary {
+         margin-top: 100px;
+         width: 120px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         color:#16A2B8;
+         border-color:#16A2B8;
+         
+     }
+
+     .btn-outline-secondary:hover {
+        background-color:#1e818841;
+     }

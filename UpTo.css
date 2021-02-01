@@ -1,0 +1,156 @@
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20;
+
+}
+
+.h1Tag {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#date {
+    color: #1E8188;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+text-align: center;
+}
+
+.activityWrapper {
+    width: 55rem;
+    height: 35rem;
+    margin-top: 50;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border: 1.8px solid #1E8188;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activities {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #1E8188;
+    margin: 2rem;
+    text-align: center;
+    border: 1px solid #1E8188;
+
+}
+
+.activities i {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.fas { 
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    color: white;
+
+}
+
+.activities p {
+    color: white;
+}
+
+.activities:hover {
+    background-color:#1e818841;
+}
+
+
+.addButton {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #1E8188;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border:#1E8188 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addButton:hover {
+    background-color:#1e818841;
+}
+
+hr {
+    width: 55rem;
+    background-color: #1E8188;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addNote {
+    margin-top: 2rem;
+}
+
+
+.addNote textarea {
+    background: #2A2828;
+    border-radius: 8px;
+    border: 1px rgb(15, 15, 15) solid;
+    width: 35rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    color: white;
+
+}
+
+.photo {
+    margin-top: 2rem;
+}
+
+
+.photo button {
+    width: 35rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid #1E8188;
+    color: white;
+    background: #1E8188;
+    text-align: center;
+
+}
+
+.addPhotoBtn:hover {
+    background-color:#1e818841;
+}
+.btn-outline-secondary {
+    margin: 30px;
+    width: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#1E8188;
+    border-color: #1E8188;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .btn-outline-secondary:hover {
+    background-color:#1e818841;
+ }
+

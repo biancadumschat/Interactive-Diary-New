@@ -1,0 +1,190 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+
+.icon {
+    border-radius: 10%;
+    width: 12rem;
+    height: 6rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+     }
+ 
+ 
+ h2 {
+     color: #ffffff;
+     font-size: 20px;
+     font-weight: 25px;
+     margin-bottom: 25px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     }
+ 
+     .loginForm {
+         margin-left: auto;
+         margin-right: auto;
+         padding: 25px;
+         width: 700px;
+
+     }
+ 
+     .form-check {
+         color: white;
+         background-color: #2A2828;
+         border-radius: 25px;
+         margin-top: 25px;
+         margin-bottom: 25px;
+         margin-left: auto;
+         margin-right: auto;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         padding-left: 10px;
+         padding-right: 10px;
+         width: 40%;
+     }
+        
+     input {
+         border-radius: 25px;
+         background: #2A2828;
+         width: 60px;
+     }
+
+     input[type="password"] {
+        border-radius: 25px;
+        background: #2A2828;
+        border: solid #2A2828 1px;
+        color: white;
+        padding-left: 20px;
+            padding-top: 7px;
+            padding-right: 60px;
+            padding-bottom: 7px;
+        
+     }
+
+     input[type="email"] {
+        border-radius: 25px;
+        background: #2A2828;
+        border: solid #2A2828 1px;
+        color: white;
+        padding-left: 20px;
+            padding-top: 7px;
+            padding-right: 60px;
+            padding-bottom: 7px;
+     
+    }      
+    
+    input[type="checkbox"] {
+        text-align: center;
+        margin-right: 0.2rem;
+        margin-left: 4rem;
+    }
+
+    label {
+        color: white;
+        font-size: small;
+        
+    }
+     
+     .col-sm-5 {
+         margin-bottom: 30px;
+         margin-left:auto;
+         margin-right: auto;
+         text-align: center;
+     }
+
+
+        hr {
+            background-color: white;
+            margin: 25px;
+        }
+
+        .buttonWrapper {
+           text-align: center;
+        }
+
+
+        #signUpButton {
+            text-align: center;
+            background-color: #03A9F4;
+            border-radius: 25px;
+            border: none;
+            padding-left: 50px;
+            padding-top: 5px;
+            padding-right: 50px;
+            padding-bottom: 5px;
+            color: white;
+            margin-top: 20px;
+
+        }
+
+        #signUpButton:hover {
+            background-color: #7ec9ec;
+          }
+
+.alternativeLogin {
+    text-align: center;
+}
+
+          .alterButton {
+            text-align: center;
+            background-color: #03A9F4;
+            border-radius: 25px;
+            border: none;
+            padding-left: 50px;
+            padding-top: 7px;
+            padding-right: 50px;
+            padding-bottom: 7px;
+            color: white;
+            margin: 10px;
+            margin-top: 20px;
+            width: 300px;
+          }
+
+          #google {
+              background-color: #C20908;
+              border: none;
+          }
+
+          .fab {
+              margin-right: 10%;
+          }
+
+          #facebook {
+              background-color: #3E538F;
+              border: none;
+          }
+
+          #facebook:hover {
+            background-color: #8c9bc4;
+          }
+
+          #google:hover {
+              background-color: #c2080879;
+          }
+
+          p { 
+              color:white;
+              text-align:center;
+              margin-top: 20px;
+          }
+
+          a { 
+              color: #03A9F4;
+
+          }

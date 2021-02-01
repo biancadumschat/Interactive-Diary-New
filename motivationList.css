@@ -1,0 +1,88 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    margin-top: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+     }
+ 
+.imageWrapper {
+    margin-left:auto;
+    margin-right: auto;
+}     
+
+ #targetIllustration {
+     border-radius: 50%;
+     height: 250px;
+     width: 350px;
+     margin-bottom: 30px;
+     border: 1px solid white;
+     margin-top: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     }
+ 
+ h2 {
+     color: #ffffff;
+    font-size: 20px;
+    font-weight: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     }
+ 
+ 
+     .form-check {
+         color: white;
+         background-color: #2A2828;
+         border-radius: 25px;
+         margin-top: 25px;
+         margin-bottom: 25px;
+         margin-left: auto;
+         margin-right: auto;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+         width: 50%;
+    
+     }
+ 
+     input[type=checkbox] {
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         margin-left: 20px;
+     }
+
+     label {
+         text-align: center;
+     }
+
+     .form-check label:first-of-type {
+         text-align: center;
+         margin-left: 70px;
+     }
+
+        .btn-outline-secondary {
+            margin: 30px;
+            width: 120px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color:#1E8188;
+            border-color: #1E8188;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+   
+        .btn-outline-secondary:hover {
+            background-color:#1e818841;
+        }
