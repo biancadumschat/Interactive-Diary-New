@@ -74,7 +74,7 @@ hr {
     padding-left: 20px;
     margin-left: -40px;
  }
- .form-check label:first-of-type {
+ .form-check label {
     margin-left: 20px;
  }
 
@@ -94,8 +94,11 @@ hr {
 }
 
 #addGoalBtn {
-      width: 150px;
-      display: inline-block;
+   width: 6rem;
+   height: 2rem;
+   margin-bottom: 2rem;
+   
+      
 }
 
 #addGoalBtn:hover {
@@ -105,14 +108,13 @@ hr {
 }
 
 
-#addText {
-   background-color: #2A2828;
-   border-radius:5px;
-   border: 1px solid white;
+div #addText {
+   background-color: #636262;
+   border-radius: 5px;
+   border: 1px solid rgb(114, 114, 114);
    color: white;
-   display: inline-block;
-   width: 90%;
-   
+   width: 60%;
+   height: 2rem;
 }
 
 #nameSubmit {

@@ -125,7 +125,8 @@
                 <hr>
                 <div id="setNewGoal" class="form-check">
                     <input type='text' id="addText">
-                    <input type="button" id="addGoalBtn" class="btn btn-outline-secondary" value="add goal">
+                    <input onclick="helloClick(event)" type="button" id="addGoalBtn" class="btn btn-outline-secondary"
+                        value="add goal">
 
                 </div>
 
@@ -135,11 +136,49 @@
     </div>
 
 
+    <script> console.log("hey");
+
+        const list = document.querySelector("#setNewGoal");
+
+        function helloClick(event) {
+
+            console.log(event);
+            let addText = document.querySelector('#addText');
+
+            console.log("second step");
+
+            let div = document.createElement('div');
+            div.setAttribute('class', "form-check");
+            list.appendChild(div)
+            div.style.color = "red";
+
+            console.log("create div");
+
+            let checkbox = document.createElement('input');
+            checkbox.type = "checkbox";
+            checkbox.value = event.value;
+            checkbox.id = "defaultCheck14";
+            checkbox.classList = "form-check-input";
+            list.appendChild(checkbox);
 
 
-    </div>
+            console.log("create checkbox")
 
-    <script src="setGoal.js"></script>
+            let label = document.createElement("label");
+            label.classList = "form-check-label";
+            label.setAttribute("for", "defaultCheck14")
+            label.appendChild(document.createTextNode(addText.value));
+            label.style.color = "white";
+            list.appendChild(label);
+
+            let hr = document.createElement("hr");
+            hr.style.backgroundColor = "#dddddd";
+            hr.style.margin = "0px 0px";
+            list.appendChild(hr);
+
+        }
+
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
