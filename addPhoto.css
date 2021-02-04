@@ -3,6 +3,10 @@
     font-family: "Quicksand", sans-serif;
 }
 
+body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); 
+}
+
 #logo {
     border-radius: 50%;
     width: 12rem;
@@ -47,6 +51,8 @@ h1 {
  #profilePic {
     height: 150px;
     width: 150px;
+    border: 1px solid #1E8188;
+    border-radius: 50%;
 
  }
 
@@ -66,7 +72,7 @@ h1 {
  }
 
  .addButton:hover {
-    background-color: RoyalBlue;
+    background-color:#1e818841;
  }
 
  
@@ -77,6 +83,7 @@ h1 {
          padding-bottom: 5px;
          color:#16A2B8;
          border-color:#16A2B8;
+         margin-bottom: 16rem;
          
      }
 

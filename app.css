@@ -2,6 +2,9 @@
     font-family: "Quicksand", sans-serif;
  }
 
+ body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); }
+
  .moodImgWrapper {
     
      margin-left: auto;
@@ -13,8 +16,8 @@
   }
   
   #moodHeader {
-    height: 225px;
-    width: 200px;
+    height: 200px;
+    width: 175px;
      border-radius: 40%;
      text-align:center;
   }
@@ -29,7 +32,7 @@ h1 {
     color: white;
     font-size: 20px;
     font-weight: 100px;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
     text-align:center;
     }
 
@@ -37,7 +40,6 @@ h1 {
 
 .moodDiv {
     vertical-align: center;
-    background-color: #0e0e0e;
 }
 
 .moodButton {
@@ -56,6 +58,7 @@ h1 {
 
 #button1 {
         background-color: #72C850;
+        border: 2px solid #50803d
         }
 #button1:hover {
         box-shadow: 0 5px 10px rgba(74, 190, 44, 0.5);
@@ -64,6 +67,7 @@ h1 {
 
 #button2 {
     background-color: #DDF83B; 
+    border: 2px solid  #96a73b
          }
 #button2:hover {
          box-shadow: 0 5px 10px rgba(188, 221, 97, 0.623);
@@ -72,6 +76,7 @@ h1 {
 
 #button3 {
     background-color: #FFC539;
+    border: 2px solid #8f7843
             }
 #button3:hover {
         box-shadow: 0 5px 10px rgba(252, 202, 38, 0.623);
@@ -80,6 +85,7 @@ h1 {
 
 #button4 {
     background-color: #FF6F00;
+    border: 2px solid #945220
     }
 #button4:hover {
         box-shadow: 0 5px 10px #ff7961;
@@ -89,6 +95,7 @@ h1 {
 
 #button5 {
     background-color: #FF6660;
+    border: 2px solid #8f3734;
 }
 #button5:hover {
         box-shadow: 0 5px 10px rgba(211, 109, 69, 0.623);

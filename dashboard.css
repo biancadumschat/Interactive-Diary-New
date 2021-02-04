@@ -1,20 +1,10 @@
-.navbar navbar-expand-lg navbar-light bg-light {
-    position: fixed;
-    margin-bottom: 30px;
-    left: 0;
-    right: 0;
-    width: 100%;
+
+body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); 
 }
-
-nav {
-    margin-bottom: 50px;
-}
-
-
 
 * {
-   margin: 0;
-   padding: 0;
+   
    box-sizing: border-box;
    font-family: "Quicksand", sans-serif;
 
@@ -23,6 +13,10 @@ nav {
 body {
     background-color: #0e0e0e;
     color:#0e0e0e;
+}
+
+#h1 {
+    margin-top: 30px;
 }
 
 h1 {
@@ -45,7 +39,7 @@ h1 {
 }
 
 #bottom {
-    background-color: white;
+    background-color:#1E8188;
     margin-bottom: 30px;
     margin-top: 70px;
     margin-left: auto;
@@ -63,7 +57,6 @@ html {
 .container {
     width: 100%;
     margin-top: 50;
-    background-color:  #0e0e0e;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -73,7 +66,6 @@ html {
 .calendar {
     width: 70rem;
     height: 52rem;
-    background-color: #0e0e0e;
     margin-top: 40px;
 
 }
@@ -88,7 +80,7 @@ html {
     align-items: center;
     padding: 0 2rem;
     text-align: center;
-    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+    text-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.5);
     border-radius: 5px;
 
 }
@@ -126,7 +118,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 0.2rem 0.3rem rgba(0,0,0,0.5);
+    text-shadow: 0.1rem 0.2rem rgba(0,0,0,0.5);
 }
 
 .days {
@@ -137,14 +129,16 @@ html {
 }
 
 .days div {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color:#1E8188;
     margin: 0.5rem;
     width: calc(61.2rem / 7);
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 0.2rem 0.3rem rgba(0,0,0,0.5);
+    text-shadow: 0.01rem 0.02rem rgba(0,0,0,0.5);
     transition: background-color 0.2s;
 }
 
@@ -153,7 +147,8 @@ html {
 }
 
 .today {
-    background-color:#1E8188;
+  border-radius: 5px;
+  border: 1px solid #1E8188;
     cursor: pointer;
 }
 
@@ -163,9 +158,10 @@ html {
 }
 
 .days div:hover:not(.today) {
-    background-color:#9c9c9c85;
-    border: 0.2rem solid #777;
-    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #1E8188;
+      cursor: pointer;
+    
 }
 
 .moodBlockWrapper {
@@ -188,7 +184,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 5%;
     
 
 }
@@ -205,10 +201,9 @@ html {
 }
 
 .moodBlocks {
-    color: white;
+    color:#1E8188;
     width: 100%;
     display: inline-block;
-    background-color:#0e0e0e;
 }
 
 .moodBlocks div {
@@ -221,20 +216,25 @@ html {
 
 #great {
     background-color: #72C850;
+    border: 1px solid #477535
 }
 
 #good {
     background-color: #DDF83B;
+    border: 1px solid #6a7720
 
 }
 #meh {
     background-color: #FFC539;
+    border: 1px solid #a77e21
 }
 
 #bad {
     background-color: #FF6F00;
+    border: 1px solid #a75415
 }
 
 #awful {
     background-color: #FF6660;
+    border: 1px solid #973936;
 }

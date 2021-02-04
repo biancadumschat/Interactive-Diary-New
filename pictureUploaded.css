@@ -2,6 +2,10 @@
     font-family: "Quicksand", sans-serif;
 }
 
+body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); 
+}
+
 h1 {
     color: #ffffff;
         font-size: 20px;
@@ -16,8 +20,6 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border-radius: 100%;
-    border: solid rgb(0, 0, 0) 1px;
     margin-top: 30px;
  }
  
@@ -25,6 +27,7 @@ h1 {
     height: 150px;
     width: 150px;
     border-radius: 50%;
+    border: 1px #1E8188 solid;
 
  }
  
@@ -35,6 +38,7 @@ h1 {
          padding-bottom: 5px;
          color:#16A2B8;
          border-color:#16A2B8;
+         margin-bottom: 26rem;
          
      }
 

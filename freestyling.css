@@ -2,6 +2,10 @@
     font-family: "Quicksand", sans-serif;
  }
 
+ body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); 
+}
+
 h1 {
     color: #ffffff;
     font-size: 35px;
@@ -11,27 +15,32 @@ h1 {
     }
 
 .entryPanel {
-    background: #343232;
+    background: #ffffff;
     box-shadow: 0 0 5px #c0c0c0;
     border-radius: 19px;
-    margin: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1E8188;
     padding: 35px;
+    color: black;
+    margin-bottom: 2rem;
+    width: 40rem;
+    display: block;
     }
+
+    #nav {
+        margin-bottom: 10rem;
+        padding: 1rem;
+    }
+
 
 
 h2 {
 font-size: 20px;
 line-height: 20px;
 text-align: center;
-color: #FFFFFF;
+color: #000000;
 }    
-
-.navbar navbar-expand-lg navbar-light bg-light {
-    border-radius: 19px;
-    background-color: #FFF075;
-}
-
-.navbar {
-    border-radius: 19px;
-    background-color: #FFF075;
-}
+ .btn-outline-info:hover {
+    background-color: #1e818841;
+ }

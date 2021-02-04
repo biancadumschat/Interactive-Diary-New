@@ -5,6 +5,9 @@ h1 {
 
 }
 
+body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); }
+
 .h1Tag {
     margin-top: 30px;
     margin-bottom: 50px;
@@ -39,10 +42,10 @@ text-align: center;
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
-    background-color: #9AA3A3;
+    background-color: #c7d3d3;
     margin: 2rem;
     text-align: center;
-    border: 1px solid #929292;
+    border: 1px solid#1E8188;
 
 }
 
@@ -102,13 +105,13 @@ hr {
 
 
 .addNote textarea {
-    background: #2A2828;
+    background: #ffffff;
     border-radius: 8px;
-    border: 1px rgb(15, 15, 15) solid;
+    border: 1px #1E8188 solid;
     width: 35rem;
     height: 2.5rem;
     padding: 0.5rem;
-    color: white;
+    color: rgb(26, 26, 26);
 
 }
 

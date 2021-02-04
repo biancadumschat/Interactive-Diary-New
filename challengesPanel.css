@@ -2,7 +2,9 @@
     font-family: "Quicksand", sans-serif;
  }
 
-html, body { margin: 0; padding: 0; }
+ body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); 
+}
 
 
 h1 {
@@ -23,20 +25,25 @@ h1 {
        }
 
         .flashcard {
-            box-shadow: 0 0 5px #bfbfbf;
+            box-shadow: 3px 3px 5px#1E8188;
+            border: 1px solid #1E8188;
             width: 20rem;
             height: 10rem;
             max-width: 600px;
             background: #8d8d8d;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             text-align: center;
             padding: 3em;
             display: inline-block;
             margin-left: 30px;
             margin-bottom: 50px;
             border-radius: 23px;
-            background-color: #1E8188;
+            background-color: #ffffff;
         
+        }
+
+        .fas, .far {
+            color:#1E8188;
         }
 
         .flashButton {
@@ -64,6 +71,12 @@ h1 {
     
        .flashcardHead {
            cursor: pointer;
+           color:#1E8188;
+           font-weight: bold;
+       }
+
+       .flashcardHead:hover {
+           color:
        }
 
 
@@ -77,7 +90,9 @@ h1 {
            display: block;
            margin-left: auto;
            margin-right: auto;
-           margin-top: 5rem;
+           margin-top: 4rem;
+           margin-bottom: 16rem;
+
            
        }
 

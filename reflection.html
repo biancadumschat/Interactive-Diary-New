@@ -10,45 +10,13 @@
     <link rel="stylesheet" href="reflection.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <script src='reflection.js'></script>
     <script src="https://kit.fontawesome.com/1801ef944e.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body style="background-color:#0e0e0e; text-align:center">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">New Entry</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">My Entries</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Goals</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
     <div class="container">
 
         <h1>It's a good time to reflect on yourself</h1>
@@ -56,18 +24,19 @@
         <div class='flashcard'>
             <div class='flashcardFront'>
                 <div class='sidebar'>
-                    <form action='file:///Users/biancadumschat/Desktop/Interactive%20Diary/reflectionChoice.html'>
-                        <button type='submit' class='flashButton' id='buttonCard'><i
-                                class="fas fa-chevron-circle-right"></i></i></button>
+                    <form>
+                        <button type='button' class='flashButton' id='buttonCard'><i
+                                class="fas fa-chevron-circle-right"></i></button>
                     </form>
                 </div>
                 <div class='mainbar'>
                     <h2 class='flashcardHead'>Reflection card</h2>
-                    <p class="flashcardBody">What are three things you're grateful for and why?</p>
                 </div>
             </div>
+
         </div>
-        <form action="file:///Users/biancadumschat/Desktop/Interactive%20Diary/freestyling.html">
+
+        <form action="file:///Users/biancadumschat/Desktop/Interactive%20Diary%20Latest/freestyling.html">
             <div id='freeStyling'>
                 <button type="input" id="freeStylingBtn">I don't need a reflection card today</button>
             </div>
@@ -76,7 +45,7 @@
     </div>
 
 
-
+    <script src='reflection.js'></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

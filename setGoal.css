@@ -2,6 +2,9 @@
    font-family: "Quicksand", sans-serif;
 }
 
+body { background: rgb(136,207,212);
+   background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); }
+
 h1 {
     color: #ffffff;
     margin-top: 25px;
@@ -26,7 +29,6 @@ h2 {
     margin-right: auto;
     text-align: center;
     border-radius: 100%;
-    border: solid rgb(0, 0, 0) 1px;
     margin-top: 30px;
     text-align:center;
  }
@@ -40,20 +42,21 @@ h2 {
  }
 
  .goalsList {
-     background-color:#2A2828;
-     border-radius: 25px;
-     border: 1px solid gainsboro;
+     background-color:#ffffff;
+     border-radius: 15px;
+     border: 1px solid  #1E8188;
      width: 550px;
      margin-left: auto;
      margin-right: auto;
      overflow-y:auto;
      height: 300px;
+     margin-bottom: 30px;
     
  }
 
  .form-check {
-    color: rgb(255, 255, 255);
-    background-color: #2A2828;
+    color: rgb(34, 34, 34);
+    background-color: #ffffff;
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -109,10 +112,10 @@ hr {
 
 
 div #addText {
-   background-color: #636262;
+   background-color: #ffffff;
    border-radius: 5px;
-   border: 1px solid rgb(114, 114, 114);
-   color: white;
+   border: 1px solid  #1E8188;
+   color: rgb(29, 29, 29);
    width: 60%;
    height: 2rem;
 }

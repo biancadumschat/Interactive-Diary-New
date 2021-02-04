@@ -2,6 +2,9 @@
     font-family: "Quicksand", sans-serif;
  }
 
+ body { background: rgb(136,207,212);
+   background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); }
+
  h1 {
     margin: 30px;
     color: white;
@@ -19,10 +22,11 @@
 
 
      .btn-outline-secondary {
-        margin: 30px;
+        margin-top: 30px;
         width: 200px;
         color:  #1E8188;
         border-color:  #1E8188;
+        margin-bottom: 17rem;
     }
 
     .btn-outline-secondary:hover {
