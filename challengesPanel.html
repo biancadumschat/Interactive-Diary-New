@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="challengesPanel.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <script src='challengesPanel.js'></script>
     <script src="https://kit.fontawesome.com/1801ef944e.js" crossorigin="anonymous"></script>
     <link rel="icon" href="favicon.ico">
 </head>
@@ -24,31 +23,31 @@
 
     <div class="container">
 
-        <div class='flashcard'>
-            <div class='flashcardFront'>
+        <div id="flashcard1" class='flashcard'>
+            <div id="front1" class='flashcardFront'>
                 <div class='sidebar'><i class="fas fa-dumbbell fa-2x"></i> </div>
                 <div class='mainbar'>
-                    <h2 class='flashcardHead'>EXERCISE</h2>
+                    <h2 id="exercise" class='flashcardHead'>EXERCISE</h2>
                 </div>
             </div>
         </div>
 
 
-        <div class='flashcard'>
-            <div class='flashcardFront'>
+        <div id="flashcard2" class='flashcard'>
+            <div id="front2" class='flashcardFront'>
                 <div class='sidebar'><i class="far fa-smile-beam fa-2x"></i> </div>
                 <div class='mainbar'>
-                    <h2 class='flashcardHead'>HABITS</h2>
+                    <h2 id="habits" class='flashcardHead'>HABITS</h2>
                 </div>
             </div>
         </div>
 
 
-        <div class='flashcard'>
-            <div class='flashcardFront'>
+        <div id="flashcard3" class='flashcard'>
+            <div id="front3" class='flashcardFront'>
                 <div class='sidebar'> <i class="fas fa-user-friends fa-2x"></i></div>
                 <div class='mainbar'>
-                    <h2 class='flashcardHead'>RELATIONSHIPS</h2>
+                    <h2 id="relationships" class='flashcardHead'>RELATIONSHIPS</h2>
                 </div>
             </div>
         </div>
@@ -57,6 +56,8 @@
             <button type="submit" id="skipBtn" class="btn">SKIP</button>
         </form>
     </div>
+
+    <script src='challengesPanel.js'></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
