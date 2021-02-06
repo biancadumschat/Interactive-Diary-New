@@ -76,6 +76,12 @@
     align-items: center;
 }
 
+#question6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .question {
     margin-left: 1rem;
     width: 14rem;
