@@ -27,5 +27,13 @@ People being caught up in daily stress are prone to depression and burn out. Inc
 - favicon.io
 - HTML, CSS & JavaScript
 
+# How to use the prototype
+
+In the repositoriy, you'll find all pages named after their respective topic, for example "entry.html" is the first page the user sees when they enter the app. The stylesheet and the script are likewise named after the corresponding HTML file, so "entry.html", "entry.css" and "entry.js" all belong together. 
+
+However, in order to use the app correctly and to get a cohesive experience, it's only necessary to open the entry.html file on your browser and you'll be guided through the app per click. 
+
+
+
 
 s/README.md>
