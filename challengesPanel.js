@@ -32,7 +32,7 @@ exercise.addEventListener("click", function () {
     submitButton1.setAttribute("id", "submit1");
     submitButton1.setAttribute("value", "GO");
     submitButton1.style.borderRadius = "30px";
-    submitButton1.style.width = "3rem";
+    submitButton1.style.width = "5rem";
     submitButton1.style.color = "#1E8188"
     submitButton1.style.border = "1px solid #1E8188"
     flashcard1.appendChild(submitButton1);
@@ -50,9 +50,9 @@ habits.addEventListener("click", function () {
     let h3Habits = document.createElement("h3");
     h3Habits.setAttribute("class", "flashcardHead");
     h3Habits.setAttribute("id", "habits")
-    h3Habits.innerText = "Set your alarm for 6am";
+    h3Habits.innerText = "Set your alarm for 6AM tomorrow";
     h3Habits.style.color = "#1E8188"
-    h3Habits.style.fontWeight = "bold";
+
     flashcard2.appendChild(h3Habits);
 
     let submitButton2 = document.createElement("input");
@@ -61,7 +61,7 @@ habits.addEventListener("click", function () {
     submitButton2.setAttribute("id", "submit2");
     submitButton2.setAttribute("value", "GO");
     submitButton2.style.borderRadius = "30px";
-    submitButton2.style.width = "3rem";
+    submitButton2.style.width = "5rem";
     submitButton2.style.color = "#1E8188"
     submitButton2.style.border = "1px solid #1E8188"
     flashcard2.appendChild(submitButton2);
@@ -89,8 +89,8 @@ relationships.addEventListener("click", function () {
     submitButton3.setAttribute("class", "btn");
     submitButton3.setAttribute("id", "submit3");
     submitButton3.setAttribute("value", "GO");
-    submitButton3.style.borderRadius = "30px";
-    submitButton3.style.width = "3rem";
+    submitButton3.style.borderRadius = "5px";
+    submitButton3.style.width = "5rem";
     submitButton3.style.color = "#1E8188"
     submitButton3.style.border = "1px solid #1E8188"
     flashcard3.appendChild(submitButton3);

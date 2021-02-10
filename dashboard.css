@@ -219,23 +219,44 @@ html {
     width: 7rem;
     background-color: white;
     height: 1rem;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     display: inline-block;
+    border-radius: 2px;
 }
 
 #great {
     background-color: #72C850;
-    border: 1px solid #477535
+    border: 1px solid #477535;
+    height: 1.5rem;
 }
+
+#great:hover {
+    box-shadow: 0 5px 10px rgba(74, 190, 44, 0.5);
+        transform: translateY(1px);
+}
+
+
 
 #good {
     background-color: #DDF83B;
     border: 1px solid #6a7720
 
 }
+#good:hover {
+    box-shadow: 0 5px 10px rgba(188, 221, 97, 0.623);
+         transform: translateY(1px);
+}
+
 #meh {
     background-color: #FFC539;
     border: 1px solid #a77e21
+}
+
+#meh:hover {
+    box-shadow: 0 5px 10px rgba(211, 109, 69, 0.623);
+        transform: translateY(1px);
 }
 
 #bad {
@@ -243,7 +264,36 @@ html {
     border: 1px solid #a75415
 }
 
+#bad:hover {
+    box-shadow: 0 5px 10px #ff7961;
+    ;
+    transform: translateY(1px);
+}
+
 #awful {
     background-color: #FF6660;
     border: 1px solid #973936;
+}
+
+#awful:hover {
+    box-shadow: 0 5px 10px rgba(211, 109, 69, 0.623);
+        transform: translateY(1px);
+}
+
+.buttons button {
+    color: white;
+    font-size: large;
+        background-color: #1E8188;
+        border-radius: 30px;
+        width: 50%;
+        height: 5rem;
+        border: 1px solid#1E8188;
+        margin-bottom: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  
+}
+
+.buttons button:hover {
+    background-color: #1e818841;
 }

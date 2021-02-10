@@ -17,21 +17,33 @@ Anybody that is eager to self-improve while at the same time practise mindfulnes
 
 Studies have shown positive effects such as improving your mood by: Helping you prioritize problems, fears, and concerns, it boost memory and comprehension, it also increases working memory capacity, which may reflect improved cognitive processing.
 
-People being caught up in daily stress are prone to depression and burn out. Increasing number of affected people. 
+People being caught up in daily stress are prone to depression and burn out. and there's an increasing number of people affected.
 
 # Framework / Tech used 
 
 - bootstrap.com
+- miro.com
 - fontawesome.com
 - cssgradient.io
 - favicon.io
 - HTML, CSS & JavaScript
+- Python
+- Express
+- Node.JS
+- MongoDB 
+- FastAPI
+- Figma
+- Visual Studio Code
 
 # How to use the prototype
 
 In the repositoriy, you'll find all pages named after their respective topic, for example "entry.html" is the first page the user sees when they enter the app. The stylesheet and the script are likewise named after the corresponding HTML file, so "entry.html", "entry.css" and "entry.js" all belong together. 
 
-However, in order to use the app correctly and to get a cohesive experience, it's only necessary to open the entry.html file on your browser and you'll be guided through the app per click. 
+However, in order to use the app correctly and to get a cohesive experience, it's only necessary to open the entry.html file on your browser and you'll be guided through the app per click. For that, please download the code to your computer in a local file.
+
+# UX 
+
+Here you'll find our Figma file and our miro board where we collected ideas that the prototype is based on.
 
 
 

@@ -13,8 +13,9 @@ button.addEventListener("click", function () {
 
     console.log("hello");
 
+
     let reflectionsQuestion = document.createElement("p");
-    reflectionsQuestion.innerText = "What are 3 things you're grateful for?";
+    reflectionsQuestion.innerText = "What are three things you're grateful for today and why?";
     reflectionsQuestion.style.color = "black";
     flashcard.appendChild(reflectionsQuestion);
 
@@ -24,8 +25,10 @@ button.addEventListener("click", function () {
     submitButton.setAttribute("id", "submit");
     submitButton.setAttribute("value", "GO");
     flashcard.appendChild(submitButton);
-    submitButton.style.borderRadius = "30px";
-    submitButton.style.height = "3rem";
+    submitButton.style.borderRadius = "50px";
+    submitButton.style.fontSize = "small";
+    submitButton.style.height = "2rem";
+    submitButton.style.width = "3rem"
     submitButton.onclick = function () {
         window.location.href = "file:///Users/biancadumschat/Desktop/Interactive%20Diary%20Latest/reflectionChoice.html"
     }
@@ -34,3 +37,4 @@ button.addEventListener("click", function () {
 
 
 })
+

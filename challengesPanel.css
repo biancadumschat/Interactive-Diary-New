@@ -17,11 +17,15 @@ h1 {
 
     h2 {
         color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 100px;
     margin-bottom: 100px;
     text-align:center;
     margin-top: 1rem;
+       }
+
+       h3 {
+           margin-top: 1rem;
        }
 
         .flashcard {
@@ -79,6 +83,23 @@ h1 {
            color:
        }
 
+       #exercise:hover {
+           border: 1px solid #1E8188;
+           border-radius: 10px;
+       }
+       #habits:hover {
+        border: 1px solid #1E8188;
+        border-radius: 10px;
+    }
+
+
+    #relationships:hover {
+        border: 1px solid #1E8188;
+        border-radius: 10px;
+    }
+
+
+
 
 
        .btn {
@@ -92,6 +113,7 @@ h1 {
            margin-right: auto;
            margin-top: 4rem;
            margin-bottom: 16rem;
+           text-align: center;
 
            
        }
@@ -99,4 +121,5 @@ h1 {
        .btn:hover {
         background-color:#1e818841;
         border-color:#1E8188;
+        color:#1E8188;
        }

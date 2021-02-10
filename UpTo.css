@@ -10,7 +10,7 @@ body { background: rgb(136,207,212);
 
 .h1Tag {
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 
@@ -28,7 +28,7 @@ text-align: center;
 .activityWrapper {
     width: 55rem;
     height: 35rem;
-    margin-top: 50;
+
     color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;

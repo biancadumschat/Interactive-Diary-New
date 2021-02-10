@@ -1,24 +1,18 @@
 console.log("helloworld");
 
-// Create a request variable and assign a new XMLHttpRequest object to it.
-var request = new XMLHttpRequest()
+const submitData = document.querySelector("#nameSubmit");
 
-// Open a new connection, using the GET request on the URL endpoint
-request.open('GET', 'http://127.0.0.1:8000/predict_category', true)
+var xhr = new XMLHttpRequest();
+xhr.open("POST", "http://localhost:8000/predict_category", true);
+xhr.setRequestHeader('Content-Type', 'application/json');
+xhr.send(JSON.stringify({
+    value: "question"
+}));
 
-request.onload = function () {
-    var data = JSON.parse(this.response)
-
-    data.forEach((df) => {
-        console.log(df);
-    })
+let radios = document.querySelectorAll(".radioButton");
+let val = localStorage.getItem('radios');
+for (let i = 0, i<radios.length, i++) {
+    if (radios[i].value == val) {
+        radios[i].checked = true;
+    }
 }
-
-// Send request
-request.send()
-
-
-fastapi
-uvicorn
-sklearn
-xlrd == 1.2.0
