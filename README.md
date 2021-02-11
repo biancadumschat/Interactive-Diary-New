@@ -43,7 +43,7 @@ However, in order to use the app correctly and to get a cohesive experience, it'
 
 # How to install the FastAPI
 
-The FastAPI is the tool that allows the communications between the frontend and the machine learning service.
+The FastAPI is the tool that allows the communication between the frontend and the machine learning service.
 
 ## Preconditions:
 Python 3
