@@ -56,7 +56,7 @@ pip install -r requirements.txt
 #### Run server
 uvicorn app.main:app --reload
 
-### API documentation (provided by Swagger UI)
+### API documentation
 http://127.0.0.1:8000/docs
 or
 localhost:8000/docs
