@@ -64,7 +64,7 @@ localhost:8000/docs
 
 # UX 
 
-Here you'll find our [Figma file](https://www.figma.com/file/A4GUQc2muYOeyxLznIir0V/Interactive-Diary?node-id=0%3A1) and our [miro] (https://miro.com/app/board/o9J_lbj_yro=/?utm_source=notification&utm_medium=email&utm_campaign=daily-updates&utm_content=go-to-board) where we collected ideas that the prototype is based on.
+Here you'll find our [Figma file](https://www.figma.com/file/A4GUQc2muYOeyxLznIir0V/Interactive-Diary?node-id=0%3A1) and our [miro board](https://miro.com/app/board/o9J_lbj_yro=/?utm_source=notification&utm_medium=email&utm_campaign=daily-updates&utm_content=go-to-board) where we collected ideas that the prototype is based on.
 
 
 
