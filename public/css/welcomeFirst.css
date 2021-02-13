@@ -1,0 +1,75 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); 
+}
+
+h1 {
+    color: white;
+     }
+
+h2 {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 100px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+       
+        }
+
+ h3 {
+     color: white;
+        font-size: 15px;
+        font-weight: 100px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        
+        }
+
+ }       
+ 
+.imageWrapper {
+    height: 300px;
+    width: 300px;
+}
+
+ #welcome {
+     height: 12rem;
+     width: 12rem;
+     margin-bottom: 25px;
+     margin-top: 30px;
+     }
+ 
+ .input-group {
+     width: 20rem;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ #basic-addon1 {
+     background-color: #1e818841;
+     color: white;
+     border: 1px solid #1E8188;
+ }
+ 
+.form-control {
+    border: 1px solid #1E8188;
+}
+
+ 
+     .btn-outline-secondary {
+         margin-top: 30px;
+         width: 120px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         color:#1E8188;
+         border-color: #1E8188;
+         margin-bottom: 16rem;
+     }
+
+     .btn-outline-secondary:hover {
+         background-color:#1e818841;
+     }

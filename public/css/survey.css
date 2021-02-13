@@ -1,0 +1,141 @@
+* {
+    font-family: "Quicksand", sans-serif;
+ }
+ 
+ body { background: rgb(136,207,212);
+    background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); }
+ 
+ h1 {
+     color: #ffffff;
+     margin-top: 25px;
+     margin-bottom: 25px;
+     text-align:center;
+      }
+ 
+ h2 {
+     color: white;
+     font-size: 20px;
+     font-weight: 100px;
+     margin-bottom: 80px;
+   
+     text-align:center;
+         }
+ 
+ 
+  .profileWrapper {
+    height: 250px;
+    width: 350px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     border-radius: 100%;
+     margin-top: 30px;
+     text-align:center;
+  }
+  
+  #surveyImg {
+    height: 250px;
+    width: 350px;
+     border-radius: 50%;
+     text-align:center;
+  }
+
+  hr {
+      color: #1E8188;
+  }
+
+  #question1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  #question2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#question3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#question4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#question5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#question6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    margin-left: 1rem;
+    width: 14rem;
+    height: 4rem;
+    text-align: center;
+    text-shadow: black;
+}
+
+
+  h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 4rem;
+    width: 8rem;
+    
+  }
+  
+  .radioButtons {
+      display: inline-block; 
+      margin: 0.7rem 4rem;
+      text-align: center;
+      
+      
+  }
+
+  .radioButtons input[type=radio] {
+      color: #1E8188;
+      background-color:black;
+  }
+
+  .radioButtonLabel {
+     color: white;
+     font-size: 15px;
+     display: block;
+     width: 5rem;
+  }
+
+  #labelCenter {
+      color: #88CFD4;
+  }
+
+
+  #nameSubmit {
+      margin-top: 5rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      color:#1E8188;
+      border: 1px solid #1E8188;
+      margin-bottom: 4rem;
+  }
+
+  #nameSubmit:hover {
+      background-color:#c9eff1;
+  }

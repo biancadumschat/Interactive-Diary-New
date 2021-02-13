@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Diary</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/setGoal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1801ef944e.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color:#0e0e0e;">
+    <div class="container">
+
+        <div class='profileWrapper'>
+            <img id='profilePic' src='https://corvisio.com/wp-content/uploads/2019/10/how-to-set-realistic-goals.png'
+                alt='avatar'>
+        </div>
+
+        <h1> It's time to set some goals</h1>
+        <h2>Setting goals gives you long-term vision and short-term motivation.<br><br> It focuses your acquisition of
+            knowledge, and helps you to organize your time<br> and your resources so that you can make the most of your
+            life.
+            <br>I've collected some suggestions for you below!
+        </h2>
+
+        <div class='goalsList'>
+            <form class="form" action="/goals/survey" method="POST"
+                onsubmit="return validate()">
+
+                <div class="form-check">
+                    <input class="form-check-input" name="exercise" type="checkbox" value="exercise" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        exercise
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" name="diet" type="checkbox" value="healthyDiet" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        healthy diet
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" name="" type="checkbox" value="decluttering" id="defaultCheck3">
+                    <label class="form-check-label" for="defaultCheck3">
+                        declutter my home
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" name="" type="checkbox" value="meditation" id="defaultCheck4">
+                    <label class="form-check-label" for="defaultCheck4">
+                        meditation
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="study" id="defaultCheck5">
+                    <label class="form-check-label" for="defaultCheck5">
+                        study for an exam
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="saveMoney" id="defaultCheck6">
+                    <label class="form-check-label" for="defaultCheck6">
+                        save money
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="readMore" id="defaultCheck7">
+                    <label class="form-check-label" for="defaultCheck7">
+                        read more
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="quitSmoking" id="defaultCheck8">
+                    <label class="form-check-label" for="defaultCheck8">
+                        quit smoking
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="outside" id="defaultCheck9">
+                    <label class="form-check-label" for="defaultCheck9">
+                        spend more time outside
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="newHobby" id="defaultCheck10">
+                    <label class="form-check-label" for="defaultCheck10">
+                        start a new hobby
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="mindfulness" id="defaultCheck11">
+                    <label class="form-check-label" for="defaultCheck11">
+                        practise mindfulness
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="timeManagement" id="defaultCheck12">
+                    <label class="form-check-label" for="defaultCheck12">
+                        improve time management
+                    </label>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="learnLanguage" id="defaultCheck13">
+                    <label class="form-check-label" for="defaultCheck13">
+                        learn a language
+                    </label>
+                </div>
+                <hr>
+                <div id="setNewGoal" class="form-check">
+                    <input type='text' id="addText">
+                    <input onclick="helloClick(event)" type="button" id="addGoalBtn" class="btn btn-outline-secondary"
+                        value="add goal">
+
+                </div>
+
+                <input type="submit" id="nameSubmit" class="btn btn-outline-secondary" value="NEXT">
+        </div>
+        </form>
+    </div>
+
+
+    <script> console.log("hey");
+
+        const list = document.querySelector("#setNewGoal");
+
+        function helloClick(event) {
+
+            console.log(event);
+            let addText = document.querySelector('#addText');
+
+            console.log("second step");
+
+            let div = document.createElement('div');
+            div.setAttribute('class', "form-check");
+            list.appendChild(div)
+            div.style.color = "red";
+
+            console.log("create div");
+
+            let checkbox = document.createElement('input');
+            checkbox.type = "checkbox";
+            checkbox.value = event.value;
+            checkbox.id = "defaultCheck14";
+            checkbox.classList = "form-check-input";
+            list.appendChild(checkbox);
+
+
+            console.log("create checkbox")
+
+            let label = document.createElement("label");
+            label.classList = "form-check-label";
+            label.setAttribute("for", "defaultCheck14")
+            label.appendChild(document.createTextNode(addText.value));
+            label.style.color = "black";
+            list.appendChild(label);
+
+            let hr = document.createElement("hr");
+            hr.style.backgroundColor = "#dddddd";
+            hr.style.margin = "0px 0px";
+            list.appendChild(hr);
+
+        }
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

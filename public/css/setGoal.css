@@ -1,0 +1,128 @@
+* {
+   font-family: "Quicksand", sans-serif;
+}
+
+body { background: rgb(136,207,212);
+   background: linear-gradient(0deg, rgba(136,207,212,1) 19%, rgba(132,203,170,1) 100%); }
+
+h1 {
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align:center;
+     }
+
+h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 100px;
+    margin-bottom: 40px;
+  
+    text-align:center;
+        }
+
+
+ .profileWrapper {
+   height: 250px;
+   width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 30px;
+    text-align:center;
+ }
+ 
+ #profilePic {
+   height: 250px;
+   width: 350px;
+    border-radius: 50%;
+    text-align:center;
+
+ }
+
+ .goalsList {
+     background-color:#ffffff;
+     border-radius: 15px;
+     border: 1px solid  #1E8188;
+     width: 550px;
+     margin-left: auto;
+     margin-right: auto;
+     overflow-y:auto;
+     height: 300px;
+     margin-bottom: 30px;
+    
+ }
+
+ .form-check {
+    color: rgb(34, 34, 34);
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+ }
+
+hr {
+    background-color:#dddddd;
+    margin: 0px 0px;
+}
+
+ input[type=checkbox] {
+    display: block;
+    padding-left: 20px;
+    margin-left: -40px;
+ }
+ .form-check label {
+    margin-left: 20px;
+ }
+
+ .btn-outline-secondary {
+   width: 120px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color:#1E8188;
+   border-color: #1E8188;
+   margin-top: 2rem;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+}
+
+.btn-outline-secondary:hover {
+   background-color:#1e818841;
+}
+
+#addGoalBtn {
+   width: 6rem;
+   height: 2rem;
+   margin-bottom: 2rem;
+   
+      
+}
+
+#addGoalBtn:hover {
+   background-color:#1e818841;
+   color: white;
+
+}
+
+
+div #addText {
+   background-color: #ffffff;
+   border-radius: 5px;
+   border: 1px solid  #1E8188;
+   color: rgb(29, 29, 29);
+   width: 60%;
+   height: 2rem;
+}
+
+#nameSubmit {
+   margin-bottom: 1rem;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
