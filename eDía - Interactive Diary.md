@@ -22,10 +22,13 @@ We had another brainstorming session aimed solely at analysing the most efficien
 
 ### The ideal user flow
 
+![ideal](ideal.png)
+
 At this stage we were all set up to move on with the design thinking method from the information architecture stage into the creation of wireframes, in order to show the rest of the team how we envision our product to properly function. We started with low fidelity wireframes and focused on a mobile version, since we thought that this form would respond more appropriately to the goals we have set for the product. In the end it will be a web responsive application, but we figured it would be easier for each team to track down the main elements and how the application will be designed. During our weekly meetings, we presented the versions of the product to the team, every time more coordinated with higher fidelity along with the help of Lili, our team’s tutor, and made sure to improve parts that needed further adjustments and at the same time initiate a conversation with the rest of the team members and especially the web development team on aspects of the design they would need further clarifications or assistance to start coding/ creating. We also aimed to incorporate a section within the user’s onboarding journey where team data science would collect data about the user in order to create a user type based on their behavior and to suggest more personalised questions at a later stage of the user journey.
 
 At the end of this process and the constant updates on the frames, we tested the product with a few friends of ours to point out any areas that would need further adjustments.
 
+![wireframes](wireframes.png)
 
 Our initial frames, that acted as a springboard for further conversation with the rest of the team. 
 Final version can be seen on our group file.
@@ -39,8 +42,16 @@ Discussions, analysis and collaboration is important before setting out to ‘sk
 ### From Design to Web Application (WD):
 (Frontend) We started off by choosing the wireframe that the UX team provided which seemed the "easiest" to remodel in HTML. It turns out, what seems simple at first glance might not be the easiest to code after all. Considering the amount of time it took to do the first page, it seemed unrealistic to finish this project on time. The learning curve was steep though, so after having built 3-4 pages, you seem to get the hang of it. 
 
+![first](first.png)
+
 This is the first page of eDía ever built 
-There were some pages that needed some extra attention and work, as they didn’t just consist of independent elements like an image <img>, a headline <h1>, a paragraph <p> and a button <button>. For the dashboard, the survey and the activity list we had to rethink our concept of coding altogether since what we had done so far didn’t meet the requirements needed to build these pages. Coding along with some developer icons on YouTube did have a huge impact on the quality of the code.
+
+There were some pages that needed some extra attention and work, as they didn’t just consist of independent elements like an image "img", a headline "h1", a paragraph "p" and a button "button". For the dashboard, the survey and the activity list we had to rethink our concept of coding altogether since what we had done so far didn’t meet the requirements needed to build these pages. Coding along with some developer icons on YouTube did have a huge impact on the quality of the code.
+
+![upto](upto.png)
+![dashboard](dashboard.png)
+![motivation](motivation.png)
+
 When we are prone to think that it’s done, the app looks nice and polished, that’s when it hits us that implementing JavaScript to make the app responsive is the real challenge. It isn’t for how to center a div, it’s truly a lucky game to be browsing through stackoverflow and finding someone with the exact same problem. After all, we all want to do the same things, but everybody’s code is different and unique. So it took a while to figure out how to let a user add something to a list (setGoal.html) or to make a calendar (dashboard.js) responsive. 
 
 (Backend) The backend of the prototype consists of authenticating user login information from the frontend into a simple API built using express, node.js, mongoose, and mongoDB. Information such as daily reflections are saved under that user’s data in the backend, while entities such as the username are posted on the frontend when needed while the user is logged in. 
@@ -65,6 +76,8 @@ Every question and challenge has 7 categories which will designate them into 5 b
 To learn about the users and to know into which ‘user type’ a user should be placed, we utilised the KMeans model, an unsupervised learning method. With the help of Normalizer from scikit-learn, the questions and challenges will firstly be preprocessed and then fitted into the KMeans model. After that, their target labels (or cluster) will be predicted inside the KMeans model. The performance of this model could be seen from the inertia’s value (the spread of datas from the centre of a cluster).
 
 After the clusters were established by the model from the questions and challenges, we then predict a user’s label using their profile that was collected at his/her sign-up. This label shows us into which cluster (or ‘user type’) this particular user was placed. In the end, we will randomly choose questions or challenges that are inside this only cluster to be shown to the user. This way, the questions and challenges that are generated for the users will be more personalised to each of them.
+
+![code](code.png)
 
 ### What we want to improve in the future:
 We want to find a way to make these questions/challenges more personalised by learning the behavior of our users from the chosen questions/challenges. For example, if a user chooses a question from cluster 3 that day, their profile will be moved towards the centre of cluster 3. But, if they choose to not answer the provided question from cluster 3, they will be moved away from the cluster 3.
