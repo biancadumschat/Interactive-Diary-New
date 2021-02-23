@@ -1,1 +1,1 @@
-document.querySelector(#nameSubmit).onClick.window.location.href = "file:///Users/biancadumschat/Desktop/Interactive%20Diary/addPhoto.html";
+document.querySelector(#nameSubmit).onClick.window.location.href = "addPhoto.html";

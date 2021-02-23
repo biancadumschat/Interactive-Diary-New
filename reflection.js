@@ -30,7 +30,7 @@ button.addEventListener("click", function () {
     submitButton.style.height = "2rem";
     submitButton.style.width = "3rem"
     submitButton.onclick = function () {
-        window.location.href = "file:///Users/biancadumschat/Desktop/Interactive%20Diary%20Latest/reflectionChoice.html"
+        window.location.href = "reflectionChoice.html"
     }
 
     console.log("done");

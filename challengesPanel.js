@@ -37,7 +37,7 @@ exercise.addEventListener("click", function () {
     submitButton1.style.border = "1px solid #1E8188"
     flashcard1.appendChild(submitButton1);
     submitButton1.onclick = function () {
-        window.location.href = "file:///Users/biancadumschat/Desktop/Interactive%20Diary%20Latest/dashboard.html";
+        window.location.href = "dashboard.html";
     }
 })
 
@@ -66,7 +66,7 @@ habits.addEventListener("click", function () {
     submitButton2.style.border = "1px solid #1E8188"
     flashcard2.appendChild(submitButton2);
     submitButton2.onclick = function () {
-        window.location.href = "file:///Users/biancadumschat/Desktop/Interactive%20Diary%20Latest/dashboard.html";
+        window.location.href = "dashboard.html";
     }
 })
 
@@ -95,7 +95,7 @@ relationships.addEventListener("click", function () {
     submitButton3.style.border = "1px solid #1E8188"
     flashcard3.appendChild(submitButton3);
     submitButton3.onclick = function () {
-        window.location.href = "file:///Users/biancadumschat/Desktop/Interactive%20Diary%20Latest/dashboard.html";
+        window.location.href = "dashboard.html";
     }
 
 });
